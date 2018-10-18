@@ -29,6 +29,34 @@
 		22249B6821713DA700ABF77D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B6721713DA700ABF77D /* ChatViewController.swift */; };
 		22249B6A21713E5000ABF77D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B6921713E5000ABF77D /* Utils.swift */; };
 		22249B6C2171420300ABF77D /* DetalleCuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B6B2171420300ABF77D /* DetalleCuentaViewController.swift */; };
+		22249B7B2174D96E00ABF77D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22249B782174D8AB00ABF77D /* Charts.framework */; };
+		22249B7C2174D96E00ABF77D /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22249B782174D8AB00ABF77D /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22249B812174EA4600ABF77D /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B7F2174EA4600ABF77D /* CustomTableViewCell2.swift */; };
+		22249B822174EA4600ABF77D /* CustomTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22249B802174EA4600ABF77D /* CustomTableViewCell2.xib */; };
+		22249B852175042C00ABF77D /* CustomTableViewCell4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22249B832175042A00ABF77D /* CustomTableViewCell4.xib */; };
+		22249B862175042C00ABF77D /* CustomTableViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B842175042B00ABF77D /* CustomTableViewCell4.swift */; };
+		22249B882175154A00ABF77D /* StatusProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B872175154A00ABF77D /* StatusProcessViewController.swift */; };
+		22249B8A21752CBB00ABF77D /* SugerenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B8921752CBB00ABF77D /* SugerenciaViewController.swift */; };
+		22249B8C2175383900ABF77D /* NuevoContratoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B8B2175383900ABF77D /* NuevoContratoViewController.swift */; };
+		22249B8F21753AF500ABF77D /* customTableTableViewCell5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22249B8D21753AF200ABF77D /* customTableTableViewCell5.xib */; };
+		22249B9021753AF500ABF77D /* customTableTableViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B8E21753AF300ABF77D /* customTableTableViewCell5.swift */; };
+		22249B9221753BB600ABF77D /* WService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B9121753BB600ABF77D /* WService.swift */; };
+		22249B9421753BED00ABF77D /* DBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B9321753BED00ABF77D /* DBase.swift */; };
+		22249B9621753C1F00ABF77D /* Crypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249B9521753C1F00ABF77D /* Crypt.swift */; };
+		22249BD321753CF800ABF77D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BA021753CB200ABF77D /* CryptoSwift.framework */; };
+		22249BD421753CF800ABF77D /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BA021753CB200ABF77D /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22249BD721753D0500ABF77D /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BB421753CD600ABF77D /* SQLite.framework */; };
+		22249BD821753D0500ABF77D /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BB421753CD600ABF77D /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22249BDB21753D1300ABF77D /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BCA21753CE700ABF77D /* Zip.framework */; };
+		22249BDC21753D1300ABF77D /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22249BCA21753CE700ABF77D /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22249BE0217543E700ABF77D /* YoReportoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249BDF217543E700ABF77D /* YoReportoViewController.swift */; };
+		22249BE2217551C500ABF77D /* DetalleNotificacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249BE1217551C500ABF77D /* DetalleNotificacionViewController.swift */; };
+		22249C0121762C8500ABF77D /* SolTecnicasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249C0021762C8500ABF77D /* SolTecnicasViewController.swift */; };
+		22249C032176309100ABF77D /* ReclamosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249C022176309100ABF77D /* ReclamosViewController.swift */; };
+		22249C05217693B700ABF77D /* RegistroInicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249C04217693B700ABF77D /* RegistroInicialViewController.swift */; };
+		22249C07217693E900ABF77D /* RegistroSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22249C06217693E900ABF77D /* RegistroSecViewController.swift */; };
+		225C8A032177867300CC4B4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225C89EC2177867200CC4B4D /* GoogleService-Info.plist */; };
+		225C8A0A2177B99200CC4B4D /* Custom2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C8A092177B99200CC4B4D /* Custom2CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +116,167 @@
 			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
+		22249B772174D8AB00ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B722174D8AB00ABF77D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		22249B792174D8AB00ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B722174D8AB00ABF77D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		22249B7D2174D96E00ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B722174D8AB00ABF77D /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+		22249B9F21753CB200ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		22249BA121753CB200ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75211F92207249D8004E41F8;
+			remoteInfo = "CryptoSwift-TestHostApp";
+		};
+		22249BA321753CB200ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = Tests;
+		};
+		22249BA521753CB200ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
+			remoteInfo = "TestsPerformance-Mac";
+		};
+		22249BA721753CB200ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
+			remoteInfo = "TestsPerformance-iOS";
+		};
+		22249BB321753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		22249BB521753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		22249BB721753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		22249BB921753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		22249BBB21753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		22249BBD21753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		22249BBF21753CD600ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		22249BC921753CE700ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A741C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		22249BCB21753CE700ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A7E1C1DFFB500A11FD3;
+			remoteInfo = ZipTests;
+		};
+		22249BCD21753CE700ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F50FF1C8DAEEC0028C434;
+			remoteInfo = "Zip OSX";
+		};
+		22249BCF21753CE700ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F51081C8DAEEC0028C434;
+			remoteInfo = "Zip OSXTests";
+		};
+		22249BD121753CE700ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 342545B51CE525B200336074;
+			remoteInfo = "Zip tvOS";
+		};
+		22249BD521753CF800ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 754BE45419693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		22249BD921753D0500ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		22249BDD21753D1300ABF77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 347E3A731C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,7 +286,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				22249BD421753CF800ABF77D /* CryptoSwift.framework in Embed Frameworks */,
 				22249B622171382700ABF77D /* Alamofire.framework in Embed Frameworks */,
+				22249BD821753D0500ABF77D /* SQLite.framework in Embed Frameworks */,
+				22249B7C2174D96E00ABF77D /* Charts.framework in Embed Frameworks */,
+				22249BDC21753D1300ABF77D /* Zip.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +321,30 @@
 		22249B6721713DA700ABF77D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		22249B6921713E5000ABF77D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		22249B6B2171420300ABF77D /* DetalleCuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCuentaViewController.swift; sourceTree = "<group>"; };
+		22249B722174D8AB00ABF77D /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		22249B7F2174EA4600ABF77D /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
+		22249B802174EA4600ABF77D /* CustomTableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell2.xib; sourceTree = "<group>"; };
+		22249B832175042A00ABF77D /* CustomTableViewCell4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell4.xib; sourceTree = "<group>"; };
+		22249B842175042B00ABF77D /* CustomTableViewCell4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell4.swift; sourceTree = "<group>"; };
+		22249B872175154A00ABF77D /* StatusProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusProcessViewController.swift; sourceTree = "<group>"; };
+		22249B8921752CBB00ABF77D /* SugerenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugerenciaViewController.swift; sourceTree = "<group>"; };
+		22249B8B2175383900ABF77D /* NuevoContratoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoContratoViewController.swift; sourceTree = "<group>"; };
+		22249B8D21753AF200ABF77D /* customTableTableViewCell5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customTableTableViewCell5.xib; sourceTree = "<group>"; };
+		22249B8E21753AF300ABF77D /* customTableTableViewCell5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableTableViewCell5.swift; sourceTree = "<group>"; };
+		22249B9121753BB600ABF77D /* WService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WService.swift; sourceTree = "<group>"; };
+		22249B9321753BED00ABF77D /* DBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBase.swift; sourceTree = "<group>"; };
+		22249B9521753C1F00ABF77D /* Crypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypt.swift; sourceTree = "<group>"; };
+		22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		22249BA921753CD600ABF77D /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = SQLite/SQLite.xcodeproj; sourceTree = "<group>"; };
+		22249BC121753CE600ABF77D /* Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zip.xcodeproj; path = "Zip-master/Zip.xcodeproj"; sourceTree = "<group>"; };
+		22249BDF217543E700ABF77D /* YoReportoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoReportoViewController.swift; sourceTree = "<group>"; };
+		22249BE1217551C500ABF77D /* DetalleNotificacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleNotificacionViewController.swift; sourceTree = "<group>"; };
+		22249C0021762C8500ABF77D /* SolTecnicasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolTecnicasViewController.swift; sourceTree = "<group>"; };
+		22249C022176309100ABF77D /* ReclamosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamosViewController.swift; sourceTree = "<group>"; };
+		22249C04217693B700ABF77D /* RegistroInicialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroInicialViewController.swift; sourceTree = "<group>"; };
+		22249C06217693E900ABF77D /* RegistroSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistroSecViewController.swift; path = "/Users/adrianaguilar/Desktop/ACliente-IOS2/ACliente-IOS2/RegistroSecViewController.swift"; sourceTree = "<absolute>"; };
+		225C89EC2177867200CC4B4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		225C8A092177B99200CC4B4D /* Custom2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2CollectionViewCell.swift; sourceTree = "<group>"; };
 		B8D8844FA1794D4684F3A925 /* Pods_ACliente_IOS2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACliente_IOS2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4B3C4CB5F30F54F08CBDF4 /* Pods-ACliente-IOS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACliente-IOS2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACliente-IOS2/Pods-ACliente-IOS2.debug.xcconfig"; sourceTree = "<group>"; };
 		F8CB5B3ED6E756318276AE0B /* Pods-ACliente-IOS2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACliente-IOS2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACliente-IOS2/Pods-ACliente-IOS2.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,8 +355,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22249B7B2174D96E00ABF77D /* Charts.framework in Frameworks */,
 				1C0794492A639917D9170F2A /* Pods_ACliente_IOS2.framework in Frameworks */,
 				22249B612171382700ABF77D /* Alamofire.framework in Frameworks */,
+				22249BD721753D0500ABF77D /* SQLite.framework in Frameworks */,
+				22249BDB21753D1300ABF77D /* Zip.framework in Frameworks */,
+				22249BD321753CF800ABF77D /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +371,10 @@
 			isa = PBXGroup;
 			children = (
 				22249B482171381D00ABF77D /* Alamofire.xcodeproj */,
+				22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */,
+				22249B722174D8AB00ABF77D /* Charts.xcodeproj */,
+				22249BA921753CD600ABF77D /* SQLite.xcodeproj */,
+				22249BC121753CE600ABF77D /* Zip.xcodeproj */,
 				22249AE82170EE1500ABF77D /* ACliente-IOS2 */,
 				22249AE72170EE1500ABF77D /* Products */,
 				9585CBB43E97191220DD1E75 /* Pods */,
@@ -176,6 +401,7 @@
 				22249AF32170EE1700ABF77D /* Assets.xcassets */,
 				22249AF52170EE1700ABF77D /* LaunchScreen.storyboard */,
 				22249AF82170EE1700ABF77D /* Info.plist */,
+				225C89EC2177867200CC4B4D /* GoogleService-Info.plist */,
 				22249AEB2170EE1500ABF77D /* ViewController.swift */,
 				22249B032170EF4D00ABF77D /* mainTabViewController.swift */,
 				22249AF02170EE1500ABF77D /* ACliente_IOS2.xcdatamodeld */,
@@ -185,6 +411,15 @@
 				22249B6521713B9300ABF77D /* ContactViewController.swift */,
 				22249B6721713DA700ABF77D /* ChatViewController.swift */,
 				22249B6B2171420300ABF77D /* DetalleCuentaViewController.swift */,
+				22249B872175154A00ABF77D /* StatusProcessViewController.swift */,
+				22249B8921752CBB00ABF77D /* SugerenciaViewController.swift */,
+				22249B8B2175383900ABF77D /* NuevoContratoViewController.swift */,
+				22249BDF217543E700ABF77D /* YoReportoViewController.swift */,
+				22249BE1217551C500ABF77D /* DetalleNotificacionViewController.swift */,
+				22249C0021762C8500ABF77D /* SolTecnicasViewController.swift */,
+				22249C022176309100ABF77D /* ReclamosViewController.swift */,
+				22249C04217693B700ABF77D /* RegistroInicialViewController.swift */,
+				22249C06217693E900ABF77D /* RegistroSecViewController.swift */,
 			);
 			path = "ACliente-IOS2";
 			sourceTree = "<group>";
@@ -192,10 +427,17 @@
 		22249B052170F18B00ABF77D /* Personalizado */ = {
 			isa = PBXGroup;
 			children = (
+				22249B842175042B00ABF77D /* CustomTableViewCell4.swift */,
+				22249B832175042A00ABF77D /* CustomTableViewCell4.xib */,
 				22249B062170F1B200ABF77D /* cellData.swift */,
 				22249B072170F1B200ABF77D /* CustomTableViewCell.swift */,
 				22249B082170F1B300ABF77D /* CustomTableViewCell.xib */,
 				22249B20217124AE00ABF77D /* CustomCollectionViewCell.swift */,
+				22249B7F2174EA4600ABF77D /* CustomTableViewCell2.swift */,
+				22249B802174EA4600ABF77D /* CustomTableViewCell2.xib */,
+				22249B8E21753AF300ABF77D /* customTableTableViewCell5.swift */,
+				22249B8D21753AF200ABF77D /* customTableTableViewCell5.xib */,
+				225C8A092177B99200CC4B4D /* Custom2CollectionViewCell.swift */,
 			);
 			path = Personalizado;
 			sourceTree = "<group>";
@@ -205,6 +447,9 @@
 			children = (
 				22249B0D2170F1CC00ABF77D /* estructuras.swift */,
 				22249B6921713E5000ABF77D /* Utils.swift */,
+				22249B9121753BB600ABF77D /* WService.swift */,
+				22249B9321753BED00ABF77D /* DBase.swift */,
+				22249B9521753C1F00ABF77D /* Crypt.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -219,6 +464,53 @@
 				22249B5C2171381E00ABF77D /* Alamofire.framework */,
 				22249B5E2171381E00ABF77D /* Alamofire tvOS Tests.xctest */,
 				22249B602171381E00ABF77D /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22249B732174D8AB00ABF77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22249B782174D8AB00ABF77D /* Charts.framework */,
+				22249B7A2174D8AB00ABF77D /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22249B9821753CB200ABF77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22249BA021753CB200ABF77D /* CryptoSwift.framework */,
+				22249BA221753CB200ABF77D /* CryptoSwift-TestHostApp.app */,
+				22249BA421753CB200ABF77D /* Tests.xctest */,
+				22249BA621753CB200ABF77D /* TestsPerformance-Mac.xctest */,
+				22249BA821753CB200ABF77D /* TestsPerformance-iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22249BAA21753CD600ABF77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22249BB421753CD600ABF77D /* SQLite.framework */,
+				22249BB621753CD600ABF77D /* SQLiteTests iOS.xctest */,
+				22249BB821753CD600ABF77D /* SQLite.framework */,
+				22249BBA21753CD600ABF77D /* SQLiteTests Mac.xctest */,
+				22249BBC21753CD600ABF77D /* SQLite.framework */,
+				22249BBE21753CD600ABF77D /* SQLiteTests tvOS.xctest */,
+				22249BC021753CD600ABF77D /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22249BC221753CE600ABF77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22249BCA21753CE700ABF77D /* Zip.framework */,
+				22249BCC21753CE700ABF77D /* ZipTests.xctest */,
+				22249BCE21753CE700ABF77D /* Zip.framework */,
+				22249BD021753CE700ABF77D /* Zip OSXTests.xctest */,
+				22249BD221753CE700ABF77D /* Zip.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,6 +551,10 @@
 			);
 			dependencies = (
 				22249B642171382700ABF77D /* PBXTargetDependency */,
+				22249B7E2174D96E00ABF77D /* PBXTargetDependency */,
+				22249BD621753CF800ABF77D /* PBXTargetDependency */,
+				22249BDA21753D0500ABF77D /* PBXTargetDependency */,
+				22249BDE21753D1300ABF77D /* PBXTargetDependency */,
 			);
 			name = "ACliente-IOS2";
 			productName = "ACliente-IOS2";
@@ -278,6 +574,9 @@
 					22249AE52170EE1500ABF77D = {
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -300,6 +599,22 @@
 				{
 					ProductGroup = 22249B492171381D00ABF77D /* Products */;
 					ProjectRef = 22249B482171381D00ABF77D /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 22249B732174D8AB00ABF77D /* Products */;
+					ProjectRef = 22249B722174D8AB00ABF77D /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = 22249B9821753CB200ABF77D /* Products */;
+					ProjectRef = 22249B9721753CB200ABF77D /* CryptoSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = 22249BAA21753CD600ABF77D /* Products */;
+					ProjectRef = 22249BA921753CD600ABF77D /* SQLite.xcodeproj */;
+				},
+				{
+					ProductGroup = 22249BC221753CE600ABF77D /* Products */;
+					ProjectRef = 22249BC121753CE600ABF77D /* Zip.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -359,6 +674,139 @@
 			remoteRef = 22249B5F2171381E00ABF77D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		22249B782174D8AB00ABF77D /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 22249B772174D8AB00ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249B7A2174D8AB00ABF77D /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 22249B792174D8AB00ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BA021753CB200ABF77D /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 22249B9F21753CB200ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BA221753CB200ABF77D /* CryptoSwift-TestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CryptoSwift-TestHostApp.app";
+			remoteRef = 22249BA121753CB200ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BA421753CB200ABF77D /* Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.xctest;
+			remoteRef = 22249BA321753CB200ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BA621753CB200ABF77D /* TestsPerformance-Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-Mac.xctest";
+			remoteRef = 22249BA521753CB200ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BA821753CB200ABF77D /* TestsPerformance-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-iOS.xctest";
+			remoteRef = 22249BA721753CB200ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BB421753CD600ABF77D /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 22249BB321753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BB621753CD600ABF77D /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 22249BB521753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BB821753CD600ABF77D /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 22249BB721753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BBA21753CD600ABF77D /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 22249BB921753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BBC21753CD600ABF77D /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 22249BBB21753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BBE21753CD600ABF77D /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 22249BBD21753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BC021753CD600ABF77D /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 22249BBF21753CD600ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BCA21753CE700ABF77D /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 22249BC921753CE700ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BCC21753CE700ABF77D /* ZipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipTests.xctest;
+			remoteRef = 22249BCB21753CE700ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BCE21753CE700ABF77D /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 22249BCD21753CE700ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BD021753CE700ABF77D /* Zip OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Zip OSXTests.xctest";
+			remoteRef = 22249BCF21753CE700ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22249BD221753CE700ABF77D /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 22249BD121753CE700ABF77D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -368,8 +816,12 @@
 			files = (
 				22249AF72170EE1700ABF77D /* LaunchScreen.storyboard in Resources */,
 				22249B0B2170F1B300ABF77D /* CustomTableViewCell.xib in Resources */,
+				225C8A032177867300CC4B4D /* GoogleService-Info.plist in Resources */,
 				22249AF42170EE1700ABF77D /* Assets.xcassets in Resources */,
+				22249B852175042C00ABF77D /* CustomTableViewCell4.xib in Resources */,
+				22249B8F21753AF500ABF77D /* customTableTableViewCell5.xib in Resources */,
 				22249AEF2170EE1500ABF77D /* Main.storyboard in Resources */,
+				22249B822174EA4600ABF77D /* CustomTableViewCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,18 +899,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22249B882175154A00ABF77D /* StatusProcessViewController.swift in Sources */,
 				22249B0A2170F1B300ABF77D /* CustomTableViewCell.swift in Sources */,
+				22249BE0217543E700ABF77D /* YoReportoViewController.swift in Sources */,
+				22249B8C2175383900ABF77D /* NuevoContratoViewController.swift in Sources */,
+				22249BE2217551C500ABF77D /* DetalleNotificacionViewController.swift in Sources */,
 				22249B2921712E7E00ABF77D /* CustomWebViewController.swift in Sources */,
+				22249B9421753BED00ABF77D /* DBase.swift in Sources */,
+				22249C07217693E900ABF77D /* RegistroSecViewController.swift in Sources */,
 				22249AF22170EE1500ABF77D /* ACliente_IOS2.xcdatamodeld in Sources */,
 				22249B6A21713E5000ABF77D /* Utils.swift in Sources */,
 				22249B6C2171420300ABF77D /* DetalleCuentaViewController.swift in Sources */,
+				22249B9621753C1F00ABF77D /* Crypt.swift in Sources */,
+				22249B9221753BB600ABF77D /* WService.swift in Sources */,
+				22249C0121762C8500ABF77D /* SolTecnicasViewController.swift in Sources */,
+				22249B9021753AF500ABF77D /* customTableTableViewCell5.swift in Sources */,
+				22249B812174EA4600ABF77D /* CustomTableViewCell2.swift in Sources */,
 				22249B042170EF4D00ABF77D /* mainTabViewController.swift in Sources */,
 				22249AEC2170EE1500ABF77D /* ViewController.swift in Sources */,
 				22249B6621713B9300ABF77D /* ContactViewController.swift in Sources */,
+				225C8A0A2177B99200CC4B4D /* Custom2CollectionViewCell.swift in Sources */,
 				22249B2721712E0200ABF77D /* CustomCollectionViewController.swift in Sources */,
+				22249B862175042C00ABF77D /* CustomTableViewCell4.swift in Sources */,
+				22249B8A21752CBB00ABF77D /* SugerenciaViewController.swift in Sources */,
 				22249B092170F1B300ABF77D /* cellData.swift in Sources */,
 				22249B0E2170F1CC00ABF77D /* estructuras.swift in Sources */,
+				22249C05217693B700ABF77D /* RegistroInicialViewController.swift in Sources */,
 				22249B6821713DA700ABF77D /* ChatViewController.swift in Sources */,
+				22249C032176309100ABF77D /* ReclamosViewController.swift in Sources */,
 				22249AEA2170EE1500ABF77D /* AppDelegate.swift in Sources */,
 				22249B172170FF8D00ABF77D /* CustomMapViewController.swift in Sources */,
 				22249B21217124AE00ABF77D /* CustomCollectionViewCell.swift in Sources */,
@@ -472,6 +940,26 @@
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
 			targetProxy = 22249B632171382700ABF77D /* PBXContainerItemProxy */;
+		};
+		22249B7E2174D96E00ABF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 22249B7D2174D96E00ABF77D /* PBXContainerItemProxy */;
+		};
+		22249BD621753CF800ABF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			targetProxy = 22249BD521753CF800ABF77D /* PBXContainerItemProxy */;
+		};
+		22249BDA21753D0500ABF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 22249BD921753D0500ABF77D /* PBXContainerItemProxy */;
+		};
+		22249BDE21753D1300ABF77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zip;
+			targetProxy = 22249BDD21753D1300ABF77D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -626,7 +1114,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.altura.ACliente-IOS2";
+				PRODUCT_BUNDLE_IDENTIFIER = "systems.altura.test.ios.ACliente-IOS2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -648,7 +1136,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.altura.ACliente-IOS2";
+				PRODUCT_BUNDLE_IDENTIFIER = "systems.altura.test.ios.ACliente-IOS2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

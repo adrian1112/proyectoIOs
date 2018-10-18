@@ -12,6 +12,8 @@ import CoreLocation
 
 class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMapViewDelegate, UISearchBarDelegate,UITableViewDataSource, UITableViewDelegate  {
 
+    let dbase = DBase()
+    
     let locationManager = CLLocationManager()
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet weak var navigateBtn: UIButton!
@@ -37,19 +39,22 @@ class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMa
         place.init(name: "Municipio de Guayaquil", street: "10 de Agosto y Pichincha, entrando por el callejon arosemena", attention: "Lunes a viernes: 08:30 a 16:30", coordinate: CLLocationCoordinate2D(latitude: -2.195159, longitude: -79.880961),selected: false, date_sync: "")
     ]
     
+    var seleccionado = place.init(name: "", street: "", attention: "", coordinate: CLLocationCoordinate2D(latitude: -2.204457, longitude: -79.886952),selected: false, date_sync: "")
+    
+    
     var filteredPlaces = [place]()
     
     let baseURLDirections = "https://maps.googleapis.com/maps/api/directions/json?"
     
     var  coordenadas : [CLLocationCoordinate2D] = []
     
-    //let dbase = DBase()
+    var mapMarkers : [GMSMarker] = []
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //let status = dbase.connect_db()
+        let status = dbase.connect_db()
         
         mapView.delegate = self
         searchBar.delegate = self
@@ -59,10 +64,9 @@ class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMa
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         
-        let camera = GMSCameraPosition.camera(withLatitude: userLatLong.latitude,
-                                              longitude: userLatLong.longitude,
-                                              zoom: 12)
-        mapView.camera = camera
+        
+        
+        
         mapView.settings.zoomGestures = true
         mapView.settings.myLocationButton = true
         mapView.isMyLocationEnabled = true
@@ -70,11 +74,81 @@ class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMa
         blurViewTop.constant = 0.0
         mapViewBotton.constant = 0.0
         
-        //if status.value {
-        //    places = dbase.getAgencies()
-        //}
+        if status.value {
+            let places_temp = dbase.getAgencies()
+            if places_temp.count > 0{
+                places = places_temp
+            }
+        }
+        
+        if seleccionado.selected {
+            print(seleccionado)
+        }
         
         self.showPins()
+        
+        if seleccionado.name != ""{
+            
+            for item in mapMarkers{
+                if item.title == seleccionado.name{
+                    
+                    self.placeLatLong = seleccionado.coordinate
+                    self.titleView.text = seleccionado.name
+                    self.addressView.text = seleccionado.street
+                    self.timeView.text = seleccionado.attention
+                    self.blurViewTop.constant = -131
+                    
+                    self.navigateBtn.isEnabled = true
+                    
+                    let camera = GMSCameraPosition.camera(withLatitude: seleccionado.coordinate.latitude,
+                                                          longitude: seleccionado.coordinate.longitude,
+                                                          zoom: 18)
+                    mapView.camera = camera
+                    mapView.selectedMarker = item
+                    
+                }
+                
+            }
+            
+            
+            /*var encontrado = false
+            for item in places{
+                if item.name == seleccionado.name{
+                    encontrado = true
+                    self.placeLatLong = seleccionado.coordinate
+                    
+                    self.titleView.text = seleccionado.name
+                    self.addressView.text = seleccionado.street
+                    self.timeView.text = seleccionado.attention
+                    self.blurViewTop.constant = -131
+                    mapViewBotton.constant = -131
+                    
+                    self.navigateBtn.isEnabled = true
+                    
+                    let camera = GMSCameraPosition.camera(withLatitude: seleccionado.coordinate.latitude,
+                                                          longitude: seleccionado.coordinate.longitude,
+                                                          zoom: 12)
+                    mapView.camera = camera
+                    
+                }
+            }
+            
+            if !encontrado{
+                let camera = GMSCameraPosition.camera(withLatitude: userLatLong.latitude,
+                                                      longitude: userLatLong.longitude,
+                                                      zoom: 12)
+                mapView.camera = camera
+            }*/
+            
+            
+        }else{
+            let camera = GMSCameraPosition.camera(withLatitude: userLatLong.latitude,
+                                                  longitude: userLatLong.longitude,
+                                                  zoom: 12)
+            mapView.camera = camera
+        }
+        
+        
         filteredPlaces = places
         result.isHidden = true
         
@@ -155,25 +229,28 @@ class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMa
         print(temp_places[indexPath.row])
         self.view.endEditing(true)
         var index = 0
-        for place in places{
-            if temp_places[indexPath.row].coordinate.latitude == place.coordinate.latitude && temp_places[indexPath.row].coordinate.longitude == place.coordinate.longitude {
+        for place in mapMarkers{
+            if temp_places[indexPath.row].name ==  place.title {
                 places[index].selected = true
-                self.placeLatLong = place.coordinate
+                self.placeLatLong = temp_places[indexPath.row].coordinate
                 
-                self.titleView.text = place.name
-                self.addressView.text = place.street
-                self.timeView.text = place.attention
+                self.titleView.text = temp_places[indexPath.row].name
+                self.addressView.text = temp_places[indexPath.row].street
+                self.timeView.text = temp_places[indexPath.row].attention
                 self.blurViewTop.constant = -131
-                mapViewBotton.constant = -131
                 
-                let camera = GMSCameraPosition.camera(withLatitude: place.coordinate.latitude, longitude: place.coordinate.longitude, zoom: 16)
+                
+                let camera = GMSCameraPosition.camera(withLatitude: temp_places[indexPath.row].coordinate.latitude, longitude: temp_places[indexPath.row].coordinate.longitude, zoom: 16)
                 self.mapView.camera = camera
+                
+                self.mapView.selectedMarker = place
                 
                 self.navigateBtn.isEnabled = true
                 
+                //mapViewBotton.constant = -131
+                
                 result.isHidden = true
                 searchActive = false;
-                //self.obtainCoordinate()
                 
             }else{
                 places[index].selected = false
@@ -276,8 +353,9 @@ class CustomMapViewController: UIViewController,CLLocationManagerDelegate, GMSMa
             marker.iconView = markerView
             marker.title = place.name
             marker.snippet = place.street
+            mapMarkers.append(marker)
             marker.map = self.mapView
-            
+  
         }
         
         return

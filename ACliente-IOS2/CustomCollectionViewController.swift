@@ -13,14 +13,14 @@ class CustomCollectionViewController: UIViewController, UICollectionViewDataSour
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let items = [pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.switchorm.com/es/index.php/es/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.westernunion.com/ec/es/home.html"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "http://www.servipagos.com/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.bancodelpacifico.com/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.bancomachala.com/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.bancoguayaquil.com/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.bolivariano.com/"),
-                 pagina.init(img: #imageLiteral(resourceName: "logo"), url: "https://www.pichincha.com/portal/")]
+    let items = [pagina.init(img: #imageLiteral(resourceName: "redfacilito"), url: "https://www.switchorm.com/es/index.php/es/"),
+                 pagina.init(img: #imageLiteral(resourceName: "western-union"), url: "https://www.westernunion.com/ec/es/home.html"),
+                 pagina.init(img: #imageLiteral(resourceName: "servipagos"), url: "http://www.servipagos.com/"),
+                 pagina.init(img: #imageLiteral(resourceName: "banco_pacifico"), url: "https://www.bancodelpacifico.com/"),
+                 pagina.init(img: #imageLiteral(resourceName: "bancomachala"), url: "https://www.bancomachala.com/"),
+                 pagina.init(img: #imageLiteral(resourceName: "bancoguayaquil"), url: "https://www.bancoguayaquil.com/"),
+                 pagina.init(img: #imageLiteral(resourceName: "bancobolivariano"), url: "https://www.bolivariano.com/"),
+                 pagina.init(img: #imageLiteral(resourceName: "banco_pichincha"), url: "https://www.pichincha.com/portal/")]
     
     
     var selectItem = 0;

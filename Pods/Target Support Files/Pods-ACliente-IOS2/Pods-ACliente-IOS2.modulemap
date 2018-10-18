@@ -1,0 +1,6 @@
+framework module Pods_ACliente_IOS2 {
+  umbrella header "Pods-ACliente-IOS2-umbrella.h"
+
+  export *
+  module * { export * }
+}
